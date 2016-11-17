@@ -11,10 +11,13 @@ public class Exercicio18 {
         BaseRelacionalA a = new BaseRelacionalA();
         
         a.conexionBD();
-        a.crearTabla();
-        a.insireProduto("p1", "parafusos", 3);
-        a.insireProduto("p2", "cravos", 4);
-        a.insireProduto("p3", "tachas", 6);
+        //a.crearTabla();
+        //a.insireProduto("p1", "parafusos", 3);
+        //a.insireProduto("p2", "cravos", 4);
+        //a.insireProduto("p3", "tachas", 6);
         a.listaProduto();
+        a.actualizaPre("p2", 1);
+        a.listaProduto();
+        a.eliminaTaboa();
     } 
 }
